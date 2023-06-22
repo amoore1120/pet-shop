@@ -1,24 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Indie+Flower&family=Love+Ya+Like+A+Sister&family=Montserrat+Alternates:wght@200;300;400;500;600;900&family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;0,900;1,400;1,500&family=Prompt:ital,wght@0,100;0,300;0,400;0,500;0,600;0,900;1,100;1,400;1,700;1,800;1,900&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,100;1,400;1,900&display=swap');
 
 
+/*
+font-family: 'Acme', sans-serif;
+font-family: 'Indie Flower', cursive;
+font-family: 'Love Ya Like A Sister', cursive;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Montserrat Alternates', sans-serif;
+font-family: 'Prompt', sans-serif;
+font-family: 'Roboto', sans-serif;
+*/
 
 
+/* Page Styling */
 
-
-
-/* Sticky Footer Classes */
-
-html,
 body {
-  height: 100%;
+
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  font-family: 'Montserrat Alternates', sans-serif;
+  letter-spacing: 3px;
 }
 
-#page-content {
-  flex: 1 0 auto;
-}
-
-/* Other Classes for Page Styling */
 
 body {
   background: #007bff;
   background: linear-gradient(to right, #0062E6, #33AEFF);
+  min-height: 100vh;
+}
+
+nav-bar {
+  align-content: space-around;
+  align-items: center;
+  column-gap: 5rem;
+}
+
+nav-bar a {
+  font-family: monospace;
+  font-size: 1.5rem;
+  color: #FFF;
+  text-decoration: none;
+
+}
+
+h1 {
+  font-family: 'Love Ya Like A Sister', cursive;
+}
+
+/* Sticky Footer Classes */
+/*
+html,
+body {
+  height: 100%;
+}*/
+
+#page-content {
+  flex: 1 0 auto;
 }
